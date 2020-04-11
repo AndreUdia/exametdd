@@ -6,8 +6,10 @@ package com.cabomaldade.coursera;
     Use Math.min() and Math.max().
  */
 
+import org.jetbrains.annotations.NotNull;
+
 public class UniformRandom {
-    public static void main(String[] args) {
+    public static void main(@NotNull String[] args) {
 
         int arg1 = Integer.parseInt(args[0]);
         int arg2 = Integer.parseInt(args[1]);
